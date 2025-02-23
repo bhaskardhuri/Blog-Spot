@@ -1,12 +1,16 @@
-#Home.css
-
-.home-container {
+.home-container 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100vh; /* Full height of the screen */
   text-align: center;
-  padding: 50px;
 }
 
-.home-container p {
-  margin-bottom: 20px; /* Adds space between the text and the button */
+.home-container p  
+{
+  margin-bottom: 20px;
 }
 
 .home-login-btn {
@@ -16,5 +20,5 @@
   text-decoration: none;
   border-radius: 5px;
   display: inline-block;
-  margin-top: 20px; /* Ensures spacing between text and button */
+  margin-top: 20px;
 }
