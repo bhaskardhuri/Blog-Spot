@@ -1,17 +1,16 @@
 /* aboutus.css */
-
 .about-container {
     text-align: center;
     padding: 50px;
     max-width: 800px;
-    margin: auto;
-    background-color: #fce4ec;
+    margin: 50px auto; /* Added margin-top to create space from navbar */
+    background-color: #f4f4f9;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .about-container h1 {
-    color: #d81b60;
+    color: #007bff;
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
