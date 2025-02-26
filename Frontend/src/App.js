@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Pages/Home/Home";
 import LoginForm from "./Pages/Login/LoginForm";
@@ -9,7 +10,6 @@ import AboutUs from "./Pages/AboutUs/AboutUs"
 import Contact from "./Pages/Contact/Contact";
 
 function App() {
-
   return (
     <Router>
        {<Navbar/>}
@@ -23,6 +23,6 @@ function App() {
       </Routes>
     </Router>
   );
-}
+} 
 
 export default App;
